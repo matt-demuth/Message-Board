@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://mdemuth:apple1@cluster0.zmy7v.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "maytheforcebewithyou"
+}

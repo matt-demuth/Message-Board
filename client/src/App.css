@@ -1,0 +1,95 @@
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #2E0266; 
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header ul {
+  list-style-type: none;
+  flex: 1;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.App-header ul li {
+  display: inline;
+  text-align: center;
+  padding: 10px;
+}
+
+.App-header ul li a {
+  font-size: calc(5px + 2vmin);
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+main {
+  margin: 30px;
+  min-height: 300px;
+}
+
+
+.App-content {
+  margin: 30px;
+}
+
+.hero{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+}
+
+.bodyimg{
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  left:45%;
+  position: absolute;
+}
+
+h2{
+  text-align: center;
+}
+
+nav {
+  display: block;
+  justify-content: left;
+  padding: 10px;
+  background-color: #9860DF; 
+
+}
+
+nav a {
+  font-weight: 700;
+  color: #1CDF34 ;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+button {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #ED5904  ;
+  border-color: #ED5904  ;
+  text-align: left;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #2E0266;
+}
